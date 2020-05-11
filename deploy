@@ -1,4 +1,4 @@
 #!/bin/sh
- git pull https://github.com/maheshmadmax/demo.git
+# git pull https://github.com/maheshmadmax/demo.git
  node app.js &
  exit
