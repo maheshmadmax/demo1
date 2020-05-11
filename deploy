@@ -2,6 +2,6 @@
  mkdir node-app-production
  cd node-app-production
  git pull
- npm install - production
+ npm install 
 # pm2 restart all
  exit
