@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jasmine-node spec",
-    "start": "node app.js"
+    "test": "jasmine-node spec"
   },
   "author": "",
   "license": "ISC",
