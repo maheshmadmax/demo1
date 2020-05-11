@@ -9,11 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "request": "^2.85.0"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"
   }
 }
-
