@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "jasmine-node spec",
-    "deploy": "npm run app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
