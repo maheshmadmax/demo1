@@ -1,4 +1,6 @@
 #!/bin/sh
-# git pull https://github.com/maheshmadmax/demo.git
- node app.js &
- exit
+mkdir production
+cd production
+git pull https://github.com/maheshmadmax/demo.git
+node app.js &
+exit
