@@ -9,7 +9,7 @@ pipeline {
 
     stage('build') {
       steps {
-        nodejs 'nodejs'
+        nodejs(nodeJSInstallationName: 'nodejs', configId: 'nodejs')
       }
     }
 
