@@ -9,7 +9,12 @@ pipeline {
 
     stage('build') {
       steps {
-        nodejs(nodeJSInstallationName: 'nodejs', configId: 'nodejs')
+        nodejs(nodeJSInstallationName: 'nodejs', configId: 'nodejs') {
+          sh '''npm install
+npm test
+./deploy'''
+        }
+
       }
     }
 
