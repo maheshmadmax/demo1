@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('build') {
+      steps {
+        nodejs 'nodejs'
+      }
+    }
+
   }
 }
